@@ -34,10 +34,18 @@ class SignInViewController: UIViewController {
                 } else {
                     self.uid = (result?.user.uid)!
                     print("works!!!!!!!!!!!!!", self.uid)
+                    self.performSegue(withIdentifier: "SignInSegue", sender: self)
                     
                 }
             })
         }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let navigation = segue.destination as! UINavigationController
+        let mainVC = navigation.topViewController as! MainViewController
+        mainVC.userID = uid
+        
     }
     
 
