@@ -6,30 +6,39 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SignInViewController: UIViewController {
 
     @IBOutlet var passwordTF: UITextField!
     @IBOutlet var emailTF: UITextField!
     
-    @IBAction func SignInClick(_ sender: Any) {
-        
-    }
+    
+    var uid:String = ""
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    
+    @IBAction func SignInClick(_ sender: Any) {
+        
+        if emailTF.text != nil && passwordTF.text != nil{
+            Auth.auth().signIn(withEmail: emailTF.text!, password: passwordTF.text!, completion: { (result, error) in
+                if error != nil {
+                    print("there was an error", error!)
+                } else {
+                    self.uid = (result?.user.uid)!
+                    print("works!!!!!!!!!!!!!", self.uid)
+                    
+                }
+            })
+        }
     }
-    */
+    
 
 }
