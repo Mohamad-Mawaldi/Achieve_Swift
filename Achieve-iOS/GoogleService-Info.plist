@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>226137038282-i8h5g1jq1nipgufuncqml321sg4km3hs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.226137038282-i8h5g1jq1nipgufuncqml321sg4km3hs</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCzv9LS5OWp6VRIb73vbrDnhCmhPQwcowA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>226137038282</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Mawaldi.Achieve-iOS</string>
+	<key>PROJECT_ID</key>
+	<string>achieve-ios-f9db8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>achieve-ios-f9db8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:226137038282:ios:4e9ac73b5ad812f8ff0333</string>
+	<key>DATABASE_URL</key>
+	<string>https://achieve-ios-f9db8.firebaseio.com</string>
+</dict>
+</plist>
