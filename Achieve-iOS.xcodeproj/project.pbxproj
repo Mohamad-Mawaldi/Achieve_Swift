@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		25A6E5C195EA193BF3AE6809 /* Pods_Achieve_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6C7DCE3A419D9639D915C1 /* Pods_Achieve_iOS.framework */; };
 		D1391E23252CD98B00272939 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1391E22252CD98A00272939 /* GoogleService-Info.plist */; };
-		D1391E26252CED0200272939 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1391E25252CED0200272939 /* MainViewController.swift */; };
 		D16CB0A9252BC77200EB7D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16CB0A8252BC77200EB7D7F /* AppDelegate.swift */; };
 		D16CB0AB252BC77200EB7D7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16CB0AA252BC77200EB7D7F /* SceneDelegate.swift */; };
 		D16CB0B2252BC77800EB7D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D16CB0B1252BC77800EB7D7F /* Assets.xcassets */; };
@@ -17,13 +16,13 @@
 		D16CB0C4252BC84600EB7D7F /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D16CB0C3252BC84600EB7D7F /* Start.storyboard */; };
 		D16CB0CB252BCB4B00EB7D7F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16CB0CA252BCB4B00EB7D7F /* SignUpViewController.swift */; };
 		D16CB0D0252BCCF000EB7D7F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16CB0CF252BCCF000EB7D7F /* SignInViewController.swift */; };
+		D1BF4EB1252FB30A0084B56A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BF4EB0252FB30A0084B56A /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B4ADF1879D202C462F2B1DF7 /* Pods-Achieve-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Achieve-iOS.release.xcconfig"; path = "Target Support Files/Pods-Achieve-iOS/Pods-Achieve-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		BD6C7DCE3A419D9639D915C1 /* Pods_Achieve_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Achieve_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1391E22252CD98A00272939 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D1391E25252CED0200272939 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D16CB0A5252BC77200EB7D7F /* Achieve-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Achieve-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16CB0A8252BC77200EB7D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D16CB0AA252BC77200EB7D7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +32,7 @@
 		D16CB0C3252BC84600EB7D7F /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
 		D16CB0CA252BCB4B00EB7D7F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D16CB0CF252BCCF000EB7D7F /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D1BF4EB0252FB30A0084B56A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		E844A2CDC3C8448419859E93 /* Pods-Achieve-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Achieve-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Achieve-iOS/Pods-Achieve-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +111,7 @@
 			children = (
 				D16CB0CA252BCB4B00EB7D7F /* SignUpViewController.swift */,
 				D16CB0CF252BCCF000EB7D7F /* SignInViewController.swift */,
-				D1391E25252CED0200272939 /* MainViewController.swift */,
+				D1BF4EB0252FB30A0084B56A /* TabBarViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -234,8 +234,8 @@
 				D16CB0D0252BCCF000EB7D7F /* SignInViewController.swift in Sources */,
 				D16CB0A9252BC77200EB7D7F /* AppDelegate.swift in Sources */,
 				D16CB0AB252BC77200EB7D7F /* SceneDelegate.swift in Sources */,
+				D1BF4EB1252FB30A0084B56A /* TabBarViewController.swift in Sources */,
 				D16CB0CB252BCB4B00EB7D7F /* SignUpViewController.swift in Sources */,
-				D1391E26252CED0200272939 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
