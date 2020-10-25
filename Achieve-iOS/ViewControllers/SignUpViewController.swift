@@ -35,7 +35,17 @@ class SignUpViewController: UIViewController {
                 } else {
                     self.uid = (result?.user.uid)!
                     let ref = Database.database().reference(withPath: "users").child(self.uid).child("userInfo")
-                    ref.setValue(["email" : self.emailTF.text , "userName": self.userNameTF.text , "password" : self.passwordTF.text]  )
+                    ref.setValue(["email" : self.emailTF.text , "userName": self.userNameTF.text , "password" : self.passwordTF.text] )
+                    
+                    
+                    NotificationCenter.default.post(name: Notification.Name("userID"), object: self.uid)
+                    
+                    let mainTabController = self.storyboard?.instantiateViewController(withIdentifier: "MainTabBar") as! TabBarViewController
+                    mainTabController.modalPresentationStyle = .fullScreen
+                    
+                    
+                    
+                    self.present(mainTabController, animated:true, completion: nil)
                     
                 }
             } )
@@ -47,16 +57,5 @@ class SignUpViewController: UIViewController {
         
         dismiss(animated: true, completion: nil)
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

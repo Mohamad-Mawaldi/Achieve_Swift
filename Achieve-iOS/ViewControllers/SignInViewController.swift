@@ -36,6 +36,9 @@ class SignInViewController: UIViewController {
                     print("works!!!!!!!!!!!!!", self.uid)
                     
                     let mainTabController = self.storyboard?.instantiateViewController(withIdentifier: "MainTabBar") as! TabBarViewController
+            
+                    NotificationCenter.default.post(name: Notification.Name("userID"), object: self.uid)
+                    
                     mainTabController.modalPresentationStyle = .fullScreen
                     self.present(mainTabController, animated:true, completion: nil)
 

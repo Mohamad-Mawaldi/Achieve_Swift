@@ -8,30 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		25A6E5C195EA193BF3AE6809 /* Pods_Achieve_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6C7DCE3A419D9639D915C1 /* Pods_Achieve_iOS.framework */; };
+		D104777C253E142400309312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D104777B253E142400309312 /* Assets.xcassets */; };
 		D1391E23252CD98B00272939 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1391E22252CD98A00272939 /* GoogleService-Info.plist */; };
+		D15B39FC25320DB10039E01C /* MainTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15B39FB25320DB10039E01C /* MainTabBar.storyboard */; };
+		D15B39FF25320DF10039E01C /* MainList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15B39FE25320DF10039E01C /* MainList.storyboard */; };
+		D15B3A0625320E5B0039E01C /* CreatTask.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15B3A0525320E5B0039E01C /* CreatTask.storyboard */; };
+		D15B3A0925320E9F0039E01C /* MainGraph.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15B3A0825320E9F0039E01C /* MainGraph.storyboard */; };
 		D16CB0A9252BC77200EB7D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16CB0A8252BC77200EB7D7F /* AppDelegate.swift */; };
 		D16CB0AB252BC77200EB7D7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16CB0AA252BC77200EB7D7F /* SceneDelegate.swift */; };
-		D16CB0B2252BC77800EB7D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D16CB0B1252BC77800EB7D7F /* Assets.xcassets */; };
 		D16CB0B5252BC77800EB7D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D16CB0B3252BC77800EB7D7F /* LaunchScreen.storyboard */; };
 		D16CB0C4252BC84600EB7D7F /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D16CB0C3252BC84600EB7D7F /* Start.storyboard */; };
 		D16CB0CB252BCB4B00EB7D7F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16CB0CA252BCB4B00EB7D7F /* SignUpViewController.swift */; };
 		D16CB0D0252BCCF000EB7D7F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16CB0CF252BCCF000EB7D7F /* SignInViewController.swift */; };
+		D190805F253F3440009DCB8F /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D190805E253F343F009DCB8F /* TaskViewController.swift */; };
+		D1908062253F3899009DCB8F /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1908061253F3899009DCB8F /* TaskCell.swift */; };
 		D1BF4EB1252FB30A0084B56A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BF4EB0252FB30A0084B56A /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B4ADF1879D202C462F2B1DF7 /* Pods-Achieve-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Achieve-iOS.release.xcconfig"; path = "Target Support Files/Pods-Achieve-iOS/Pods-Achieve-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		BD6C7DCE3A419D9639D915C1 /* Pods_Achieve_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Achieve_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D104777B253E142400309312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Achieve-iOS/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		D1391E22252CD98A00272939 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D15B39FB25320DB10039E01C /* MainTabBar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainTabBar.storyboard; sourceTree = "<group>"; };
+		D15B39FE25320DF10039E01C /* MainList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainList.storyboard; sourceTree = "<group>"; };
+		D15B3A0525320E5B0039E01C /* CreatTask.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreatTask.storyboard; sourceTree = "<group>"; };
+		D15B3A0825320E9F0039E01C /* MainGraph.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainGraph.storyboard; sourceTree = "<group>"; };
 		D16CB0A5252BC77200EB7D7F /* Achieve-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Achieve-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16CB0A8252BC77200EB7D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D16CB0AA252BC77200EB7D7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D16CB0B1252BC77800EB7D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D16CB0B4252BC77800EB7D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D16CB0B6252BC77800EB7D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D16CB0C3252BC84600EB7D7F /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
 		D16CB0CA252BCB4B00EB7D7F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D16CB0CF252BCCF000EB7D7F /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D190805E253F343F009DCB8F /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		D1908061253F3899009DCB8F /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		D1BF4EB0252FB30A0084B56A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		E844A2CDC3C8448419859E93 /* Pods-Achieve-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Achieve-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Achieve-iOS/Pods-Achieve-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,12 +98,12 @@
 		D16CB0A7252BC77200EB7D7F /* Achieve-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				D104777B253E142400309312 /* Assets.xcassets */,
 				D1391E22252CD98A00272939 /* GoogleService-Info.plist */,
 				D16CB0C2252BC82C00EB7D7F /* ViewControllers */,
 				D16CB0C1252BC81300EB7D7F /* StoryBoards */,
 				D16CB0A8252BC77200EB7D7F /* AppDelegate.swift */,
 				D16CB0AA252BC77200EB7D7F /* SceneDelegate.swift */,
-				D16CB0B1252BC77800EB7D7F /* Assets.xcassets */,
 				D16CB0B3252BC77800EB7D7F /* LaunchScreen.storyboard */,
 				D16CB0B6252BC77800EB7D7F /* Info.plist */,
 			);
@@ -102,6 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				D16CB0C3252BC84600EB7D7F /* Start.storyboard */,
+				D15B3A0825320E9F0039E01C /* MainGraph.storyboard */,
+				D15B3A0525320E5B0039E01C /* CreatTask.storyboard */,
+				D15B39FE25320DF10039E01C /* MainList.storyboard */,
+				D15B39FB25320DB10039E01C /* MainTabBar.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -112,6 +128,8 @@
 				D16CB0CA252BCB4B00EB7D7F /* SignUpViewController.swift */,
 				D16CB0CF252BCCF000EB7D7F /* SignInViewController.swift */,
 				D1BF4EB0252FB30A0084B56A /* TabBarViewController.swift */,
+				D190805E253F343F009DCB8F /* TaskViewController.swift */,
+				D1908061253F3899009DCB8F /* TaskCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -176,8 +194,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D16CB0B5252BC77800EB7D7F /* LaunchScreen.storyboard in Resources */,
+				D15B39FC25320DB10039E01C /* MainTabBar.storyboard in Resources */,
+				D15B3A0925320E9F0039E01C /* MainGraph.storyboard in Resources */,
+				D15B3A0625320E5B0039E01C /* CreatTask.storyboard in Resources */,
 				D1391E23252CD98B00272939 /* GoogleService-Info.plist in Resources */,
-				D16CB0B2252BC77800EB7D7F /* Assets.xcassets in Resources */,
+				D15B39FF25320DF10039E01C /* MainList.storyboard in Resources */,
+				D104777C253E142400309312 /* Assets.xcassets in Resources */,
 				D16CB0C4252BC84600EB7D7F /* Start.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,10 +254,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D16CB0D0252BCCF000EB7D7F /* SignInViewController.swift in Sources */,
+				D1908062253F3899009DCB8F /* TaskCell.swift in Sources */,
 				D16CB0A9252BC77200EB7D7F /* AppDelegate.swift in Sources */,
 				D16CB0AB252BC77200EB7D7F /* SceneDelegate.swift in Sources */,
 				D1BF4EB1252FB30A0084B56A /* TabBarViewController.swift in Sources */,
 				D16CB0CB252BCB4B00EB7D7F /* SignUpViewController.swift in Sources */,
+				D190805F253F3440009DCB8F /* TaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
