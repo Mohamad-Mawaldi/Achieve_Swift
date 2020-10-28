@@ -10,7 +10,7 @@ import UIKit
 class TaskCell: UITableViewCell {
 
     @IBOutlet weak var taskHeader: UILabel!
-    //@IBOutlet var checkmarkImage: UIImageView!
+    @IBOutlet weak var checkmarkImage: UIImageView!
 
     override func awakeFromNib() {
         super.awakeFromNib()
