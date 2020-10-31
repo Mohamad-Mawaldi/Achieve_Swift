@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         if Auth.auth().currentUser != nil {
             // user is authed
-            let storyboard = UIStoryboard(name: "MainTabBar", bundle: nil)
+            let storyboard = UIStoryboard(name: "MainList", bundle: nil)
             self.window?.rootViewController = storyboard.instantiateInitialViewController()
         }
         

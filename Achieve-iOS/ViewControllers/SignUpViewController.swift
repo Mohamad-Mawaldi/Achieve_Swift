@@ -35,17 +35,14 @@ class SignUpViewController: UIViewController {
                 } else {
                     self.uid = (result?.user.uid)!
                     let ref = Database.database().reference(withPath: "users").child(self.uid).child("userInfo")
-                    ref.setValue(["email" : self.emailTF.text , "userName": self.userNameTF.text , "password" : self.passwordTF.text] )
-                    
-                    
-                    NotificationCenter.default.post(name: Notification.Name("userID"), object: self.uid)
-                    
-                    let mainTabController = self.storyboard?.instantiateViewController(withIdentifier: "MainTabBar") as! TabBarViewController
-                    mainTabController.modalPresentationStyle = .fullScreen
+                    ref.setValue(["email" : self.emailTF.text , "userName": self.userNameTF.text] )
                     
                     
                     
-                    self.present(mainTabController, animated:true, completion: nil)
+                    let mainListController = self.storyboard?.instantiateViewController(withIdentifier: "MainList") as! TaskViewController
+                    mainListController.modalPresentationStyle = .fullScreen
+                    self.present(mainListController, animated:true, completion: nil)
+
                     
                 }
             } )
