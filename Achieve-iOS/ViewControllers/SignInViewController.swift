@@ -35,11 +35,10 @@ class SignInViewController: UIViewController {
                     self.uid = (result?.user.uid)!
                     print("works!!!!!!!!!!!!!", self.uid)
                     
-                    let mainListController = self.storyboard?.instantiateViewController(withIdentifier: "MainList") as! TaskViewController
-                    mainListController.modalPresentationStyle = .fullScreen
-                    self.present(mainListController, animated:true, completion: nil)
-
-
+                    
+                    let mainListStoryboard = UIStoryboard(name: "MainList", bundle: nil).instantiateInitialViewController() as! UINavigationController
+                    mainListStoryboard.modalPresentationStyle = .fullScreen
+                    self.present(mainListStoryboard, animated:true, completion: nil)
                     
                     
                 }
