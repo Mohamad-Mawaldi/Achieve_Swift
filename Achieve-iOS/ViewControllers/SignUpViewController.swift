@@ -9,7 +9,7 @@ import UIKit
 import FirebaseAuth
 import FirebaseDatabase
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: UIViewController, UITextFieldDelegate {
     
     
     @IBOutlet var emailTF: UITextField!
@@ -23,7 +23,23 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.emailTF.delegate = self
+        self.userNameTF.delegate = self
+        self.passwordTF.delegate = self
+
+    }
+    
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        emailTF.resignFirstResponder()
+        userNameTF.resignFirstResponder()
+        passwordTF.resignFirstResponder()
+        return(true)
+
     }
     
     
